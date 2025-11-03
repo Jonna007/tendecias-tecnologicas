@@ -1,0 +1,47 @@
+    1  cd "downloads/tendecias tecnológicas"
+    2  cd "descargas/tendecias tecnológicas"
+    3  cd "Downloads/tendecias tecnológicas"
+    4  ls
+    5  ls -r
+    6  ls -R
+    7  cd ..
+    8  cd ..
+    9  cd ..
+   10  ls -R
+   11  cd ..
+   12  cd "descargas/tendecias tecnológicas"
+   13  cd "Downloads/tendecias tecnológicas"
+   14  cd ASUS/Downloads/tendencias\ tecnológicas/Practica1/
+   15  mkdir proyecto_comandos
+   16  cd proyecto_comandos
+   17  mkdir documentos iamgénes scripts
+   18  ls -R
+   19  echo "Esta es la primera línea de mis notas." > documentos/notas.txt
+   20  echo "Esta es la segunda línea." >> documentos/notas.txt
+   21  echo "Esta es la línea final." >> documentos/notas.txt
+   22  cat documentos/notas.txt
+   23  cp documentos/notas.txt scripts/backup_notas.txt
+   24  ls scripts/
+   25  cd Downloads/tendencias\ tecnológicas/Practica1/
+   26  mkdir proyecto_comandos
+   27  cd proyecto_comandos
+   28  mkdir documentos imagénes scripts
+   29  ls -R
+   30  echo \"Esta es la primera línea de mis notas.\" > documentos/notas.txt
+   31  echo "Esta es la segunda línea de mis notas." >> documentos/notas.txt
+   32  echo "Esta es la línes final de mis notas." >> documentos/notas.txt
+   33  cat documentos/notas.txt
+   34  cp documentos/notas.txt scripts/backup_notas.txt
+   35  ls scripts/
+   36  mv scripts/backup_notas.txt imagénes/
+   37  ls scripts/
+   38  ls imagénes/
+   39  cat documentos/notas.txt >documentos/resumen.txt
+   40  cat documentos/resumen.txt
+   41  echo "---Fin del resumen Jonnathan Cadme ----" >>documentos/resumen.txt
+   42  cat documentos/resumen.txt
+   43  rm imagénes/backup_notas.txt
+   44  ls imagénes/
+   45  rmdir imagénes/
+   46  ls
+   47  history > tarea-s1-Jonnathan-Cadme.txt
