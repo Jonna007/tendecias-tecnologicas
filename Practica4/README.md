@@ -1,4 +1,4 @@
-# 📄 Práctica No 4 - Contenedores PostgreSQL y pgAdmin conectados mediante red personalizada en Docker
+# Práctica No 4 - Contenedores PostgreSQL y pgAdmin conectados mediante red personalizada en Docker
 
 ## 1. Título
 
