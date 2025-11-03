@@ -54,7 +54,7 @@ Para realizar esta práctica es necesario conocer sobre Linux, un sistema operat
 ## 8. Procedimiento
 
 **Paso 1:** Se creó una carpeta denominada `proyecto_comandos` y dentro de ella, tres subcarpetas denominadas `documentos`, `imagenes` y `scripts` con `mkdir`.
-Practica1/imágenes/9.png
+<img width="946" height="577" alt="image" src="https://github.com/user-attachments/assets/3b3b0343-0d11-47b6-9417-542fce3d763b" />
 
 **Paso 2:** Dentro de la carpeta `documentos`, se creó un archivo llamado `notas.txt` y se añadieron tres líneas de texto usando `echo`.
 
