@@ -54,40 +54,28 @@ Para realizar esta práctica es necesario conocer sobre Linux, un sistema operat
 ## 8. Procedimiento
 
 **Paso 1:** Se creó una carpeta denominada `proyecto_comandos` y dentro de ella, tres subcarpetas denominadas `documentos`, `imagenes` y `scripts` con `mkdir`.
-
+<img width="946" height="577" alt="image" src="https://github.com/user-attachments/assets/3b3b0343-0d11-47b6-9417-542fce3d763b" />
 
 **Paso 2:** Dentro de la carpeta `documentos`, se creó un archivo llamado `notas.txt` y se añadieron tres líneas de texto usando `echo`.
-
+<img width="950" height="423" alt="image" src="https://github.com/user-attachments/assets/04730645-9467-4db8-8550-a02c27a943d4" />
 
 **Paso 3:** Se copió `notas.txt` a la carpeta `scripts` y se modificó su nombre a `backup_notas.txt`.
-
-*Figura 3. Comando "cp".*
-> (Aquí pegas tu captura del comando 'cp ...')
+<img width="943" height="190" alt="image" src="https://github.com/user-attachments/assets/36ab226f-0fd4-4308-8a7c-23edff698e96" />
 
 **Paso 4:** Se movió el archivo `backup_notas.txt` a la carpeta `imagenes`.
-
-*Figura 4. Comando "mv".*
-> (Aquí pegas tu captura del comando 'mv ...')
+<img width="953" height="289" alt="image" src="https://github.com/user-attachments/assets/dce76f9a-478d-4257-af86-c7f53ecf7dba" />
 
 **Paso 5:** Se creó un nuevo archivo `resumen.txt` y se redirecionó el contenido de `notas.txt`.
-
-*Figura 5. Comando "cat" y redirección (>).*
-> (Aquí pegas tu captura de 'cat ... > ...')
+<img width="957" height="248" alt="image" src="https://github.com/user-attachments/assets/34079314-17e4-4109-990d-8caba329b726" />
 
 **Paso 6:** Se añadió una nueva línea de texto sin sobrescribir lo que ya estaba en `resumen.txt`.
-
-*Figura 6. Comando "echo" y concatenación (>>).*
-> (Aquí pegas tu captura de 'echo ... >> ...')
+<img width="946" height="266" alt="image" src="https://github.com/user-attachments/assets/26226d70-87ad-477b-8675-bf5084848b7d" />
 
 **Paso 7:** Se eliminó el archivo `backup_notas.txt` y la carpeta `imagenes` (ya vacía).
-
-*Figura 7. Comandos "rm" y "rmdir".*
-> (Aquí pegas tu captura de 'rm' y 'rmdir')
+<img width="942" height="368" alt="image" src="https://github.com/user-attachments/assets/f2651af3-a17b-4a06-a68c-b18739397b24" />
 
 **Paso 8:** Se extrajo el historial de comandos a un archivo con mi nombre.
-
-*Figura 8. Comando "history".*
-> (Aquí pegas tu captura de 'history > ...')
+<img width="952" height="199" alt="image" src="https://github.com/user-attachments/assets/6a3fecac-f096-44d0-b11c-b5d4be209f6c" />
 
 ## 9. Resultados esperados
 
@@ -95,7 +83,7 @@ En esta práctica, aprendí a usar los comandos básicos de Linux para organizar
 
 Lo más útil fue entender cómo copiar (`cp`) y mover (`mv`) archivos entre diferentes carpetas. También practiqué cómo eliminar archivos (`rm`) y carpetas vacías (`rmdir`) de forma segura.
 
-Finalmente, entendí la diferencia entre `>` (que sobrescribe todo) y `>>` (que solo añade al final), lo cual me sirvió para crear y modificar el archivo `resumen.txt`. Guardar el historial con `history` fue un buen truco para registrar todo lo que hice.
+Finalmente, entendí la diferencia entre `>` (que sobrescribe todo) y `>>` (que solo añade al final), lo cual me sirvió para crear y modificar el archivo `resumen.txt`. Guardar el historial con `history` para registrar todo lo que hice.
 
 ## 10. Bibliografía
 
