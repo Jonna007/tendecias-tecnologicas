@@ -13,4 +13,7 @@ Este repositorio contiene todas las prácticas de la materia de Tendencias Tecno
 * **[Práctica 2: Servidores Nginx con Docker](./Practica2/README.md)**
     * *Descripción: Creación y personalización de dos servidores web Nginx usando contenedores de Docker y la plataforma Play with Docker.*
 
-* **Práctica 3: (Próximamente)**
+* **[Práctica 3: Volúmenes Docker con PostgreSQL](./Practica3/README.md)**
+    * *Descripción: Demostración de la persistencia de datos en contenedores PostgreSQL mediante el uso de volúmenes de Docker.*
+
+* **Práctica 4: (Próximamente)**
