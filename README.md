@@ -16,4 +16,5 @@ Este repositorio contiene todas las prácticas de la materia de Tendencias Tecno
 * **[Práctica 3: Volúmenes Docker con PostgreSQL](./Practica3/README.md)**
     * *Descripción: Demostración de la persistencia de datos en contenedores PostgreSQL mediante el uso de volúmenes de Docker.*
 
-* **Práctica 4: (Próximamente)**
+* **[Práctica 4: Redes Docker (PostgreSQL + pgAdmin)](./Practica4/README.md)**
+    * *Descripción: Conexión de contenedores PostgreSQL y pgAdmin mediante una red Docker personalizada.*
