@@ -55,7 +55,7 @@ Los conceptos clave aplicados son:
 Se estructuró el archivo definiendo la versión, los servicios (`db`, `wordpress`, `phpmyadmin`), los volúmenes persistentes y la red `red_wp`.
 
 *Figura 1. Código fuente en Visual Studio Code.*
-
+https://github.com/Jonna007/tendecias-tecnologicas/blob/main/Practica5/imagenes%20practica%205/1.png
 
 **Paso 2:** Despliegue de los servicios.
 Se utilizó el comando `docker-compose up -d` para descargar las imágenes y levantar los contenedores en segundo plano. Posteriormente, se verificó el estado con `docker-compose ps`.
