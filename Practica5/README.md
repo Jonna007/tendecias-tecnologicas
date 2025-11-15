@@ -55,31 +55,36 @@ Los conceptos clave aplicados son:
 Se estructuró el archivo definiendo la versión, los servicios (`db`, `wordpress`, `phpmyadmin`), los volúmenes persistentes y la red `red_wp`.
 
 *Figura 1. Código fuente en Visual Studio Code.*
-https://github.com/Jonna007/tendecias-tecnologicas/blob/main/Practica5/imagenes%20practica%205/1.png
+<img width="859" height="1132" alt="1" src="https://github.com/user-attachments/assets/01d23ce7-4514-4c88-9f1f-9ac60710f257" />
+
 
 **Paso 2:** Despliegue de los servicios.
 Se utilizó el comando `docker-compose up -d` para descargar las imágenes y levantar los contenedores en segundo plano. Posteriormente, se verificó el estado con `docker-compose ps`.
 
 *Figura 2. Ejecución de comandos en terminal Warp.*
-> (Pega aquí tu captura: Captura de pantalla 2025-11-15 163605.jpg)
+<img width="949" height="1069" alt="2" src="https://github.com/user-attachments/assets/5b550f0f-0c2b-44ef-b0d5-0ee6e77b7df5" />
+
 
 **Paso 3:** Configuración inicial de WordPress.
 Se accedió a `localhost:8081` para realizar la instalación del CMS, definiendo el título del sitio y las credenciales de administrador.
 
 *Figura 3. Instalación de WordPress.*
-> (Pega aquí tu captura: Captura de pantalla 2025-11-15 164154.png)
+<img width="736" height="848" alt="3" src="https://github.com/user-attachments/assets/df1d13c8-29d6-462f-aa47-fda502a7cc02" />
+
 
 **Paso 4:** Verificación del funcionamiento de WordPress.
 Acceso exitoso al "Escritorio" (Dashboard) de WordPress, confirmando la conexión correcta con la base de datos.
 
 *Figura 4. Escritorio de WordPress.*
-> (Pega aquí tu captura: Captura de pantalla 2025-11-15 164319.png)
+<img width="958" height="1144" alt="4" src="https://github.com/user-attachments/assets/93819b69-b372-488b-abd1-c62eb3ccaa8c" />
+
 
 **Paso 5:** Verificación de la Base de Datos con phpMyAdmin.
 Acceso a `localhost:8082` para inspeccionar visualmente la base de datos `wordpress` y confirmar la creación automática de las tablas.
 
 *Figura 5. Tablas de la base de datos en phpMyAdmin.*
-> (Pega aquí tu captura: Captura de pantalla 2025-11-15 164602.jpg)
+<img width="960" height="1199" alt="5" src="https://github.com/user-attachments/assets/36fff80b-7419-4374-9870-c8d443ff2f1d" />
+
 
 ## 9. Resultados esperados
 
