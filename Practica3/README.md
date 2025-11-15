@@ -1,5 +1,5 @@
 
-# 📄 Práctica No 3 - Gestión de Bases de Datos con y sin Volúmenes usando Docker y TablePlus
+# Práctica No 3 - Gestión de Bases de Datos con y sin Volúmenes usando Docker y TablePlus
 
 ## 1. Título
 
