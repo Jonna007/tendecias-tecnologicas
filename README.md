@@ -18,3 +18,6 @@ Este repositorio contiene todas las prácticas de la materia de Tendencias Tecno
 
 * **[Práctica 4: Redes Docker (PostgreSQL + pgAdmin)](./Practica4/README.md)**
     * *Descripción: Conexión de contenedores PostgreSQL y pgAdmin mediante una red Docker personalizada.*
+
+* **[Práctica 5: WordPress con Docker Compose](./Practica5/README.md)**
+    * *Descripción: Orquestación de un entorno completo (WordPress, MySQL, phpMyAdmin) utilizando archivos YAML y Docker Compose.*
