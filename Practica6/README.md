@@ -37,7 +37,6 @@ Se aplicaron conceptos avanzados como:
 * Documentación oficial de Docker (Dockerfile reference).
 * Repositorios de código fuente proporcionados (MockAPI y Suda-Frontend).
 * Guía de despliegue de React en Nginx.
-* [cite_start]Material audiovisual de la plataforma EVA[cite: 2340].
 
 ## 8. Procedimiento
 
