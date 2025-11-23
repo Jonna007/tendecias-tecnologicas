@@ -43,7 +43,7 @@ Se aplicaron conceptos avanzados como:
 
 **Paso 1: Preparación del entorno y Backend.**
 Se clonaron los repositorios necesarios. Primero se inició el servicio de Backend (MockAPI) para asegurar la disponibilidad de datos.
-*Figura 1. Backend ejecutándose en el puerto 8000.*
+*Figura 1. Backend ejecutándose en el puerto 3100.*
 ![alt text](<Captura de pantalla 2025-11-22 215110.png>)
 <img width="939" height="825" alt="Captura de pantalla 2025-11-23 034942" src="https://github.com/user-attachments/assets/d8836230-5c04-4c85-adb9-befed79df60a" />
 
