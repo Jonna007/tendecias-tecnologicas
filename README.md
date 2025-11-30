@@ -22,5 +22,8 @@ Este repositorio contiene todas las prácticas de la materia de Tendencias Tecno
 * **[Práctica 5: WordPress con Docker Compose](./Practica5/README.md)**
     * *Descripción: Orquestación de un entorno completo (WordPress, MySQL, phpMyAdmin) utilizando archivos YAML y Docker Compose.*
 
-* **[Práctica 6: Dockerfile y App React](./Practica7/README.md)**
+* **[Práctica 6: Dockerfile y App React](./Practica6/README.md)**
   * *Descripción: Creación de una imagen personalizada para Frontend usando Dockerfile y Multi-stage builds.*
+
+* **[Práctica 7: Backend Spring Boot & Postgres](./Practica7/README.md)**
+  * *Descripción: Despliegue automatizado de API Java 21 con Dockerfile Multi-stage y seguridad con variables de entorno.*
