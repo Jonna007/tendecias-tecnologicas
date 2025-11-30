@@ -41,22 +41,31 @@ Los puntos técnicos destacados fueron:
 
 **Paso 1: Configuración de la Base de Datos.**
 Se creó el archivo `docker-compose.yml` definiendo los servicios de `postgres_db` y `pgadmin`, configurando volúmenes persistentes y una red interna.
+
 *Figura 1. Despliegue inicial de contenedores de base de datos.*
 ![alt text](imagenes/7.png)
+
 **Paso 2: Configuración del Dockerfile Multi-stage.**
 Se creó un `Dockerfile` configurado para Java 21. Se definieron dos etapas: `builder` para compilar con Maven y la etapa final con `eclipse-temurin:21-jre-alpine` para ejecutar la aplicación de forma ligera.
+
 *Figura 2. Archivo Dockerfile configurado en VS Code.*
 ![alt text](imagenes/6.png)
+
 **Paso 3: Construcción y Despliegue (Build).**
 Se ejecutó el comando `docker-compose up -d --build`. Se solucionaron conflictos de versiones actualizando a Java 21, logrando una compilación exitosa.
+
 *Figura 3. Proceso de construcción y descarga de capas exitoso.*
 ![alt text](imagenes/4.png)
+
 **Paso 4: Verificación de Contenedores.**
 Se verificó mediante `docker-compose ps` que los tres servicios (`db_security`, `pgadmin_server` y `spring_backend`) estuvieran en estado "Up" o "Started".
+
 *Figura 4. Estado de los contenedores en ejecución.*
 ![alt text](imagenes/1.png)
+
 **Paso 5: Prueba de Funcionamiento.**
 Se accedió al endpoint `http://localhost:8081/users` desde el navegador. La respuesta JSON con la lista de usuarios confirma que el backend se conectó exitosamente a la base de datos PostgreSQL.
+
 *Figura 5. Respuesta JSON del backend en el navegador.*
 ![alt text](imagenes/5.png)
 
