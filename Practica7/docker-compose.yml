@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  # Servicio de Base de Datos
+  postgres_db:
+    image: postgres:14.4
+    container_name: db_security
+    restart: always
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+    ports:
+      - "${DB_PORT}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - backend_network
+
+  # Servicio de Administración Gráfica
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin_server
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD}
+    ports:
+      - "8088:80"
+    depends_on:
+      - postgres_db
+    networks:
+      - backend_network
+  
+  # Servicio de Aplicación Backend (Spring Boot)
+  app-backend:
+    build:
+      context: ./backend-app
+      dockerfile: Dockerfile
+    container_name: spring_backend
+    restart: always
+    ports:
+      - "8081:8081"
+    environment:
+      # Conexión a la BD usando el nombre del servicio (postgres_db)
+      DB_SERVER: postgres_db
+      DB_PORT: 5432
+      DB_NAME: ${DB_NAME}
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+    depends_on:
+      - postgres_db
+    networks:
+      - backend_network
+      
+volumes:
+  postgres_data:
+
+networks:
+  backend_network:
+    driver: bridge
